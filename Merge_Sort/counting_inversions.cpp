@@ -82,7 +82,7 @@ int merge(vector<int> &ar, vector<int> &left, vector<int> &right)
 		else
 		{
 			ar[k] = right[j];
-			inv_count += m - j; 
+			inv_count += m - i; 
 			j++;
 		}
 	}
